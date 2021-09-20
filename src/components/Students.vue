@@ -1,16 +1,18 @@
 <template>
-    <Rent/>
+    <div>
+
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'Rent',
+  name: 'Students',
   props: {
 
   }
 }
 </script>
 
-<style scoped>
+<style>
 
 </style>
