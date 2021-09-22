@@ -36,10 +36,12 @@ export default {
         place-content: space-evenly;
     }
     .rent, .buy, .sell {
-        width: 32%;
-    }
-    .rent, .buy {
+        width: 33%;
+        padding: 0 0.5rem;
         border-right: #5c83aa 1px solid;
+    }
+    .sell {
+        border-right: none;
     }
 
     h2 {

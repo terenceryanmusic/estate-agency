@@ -1,8 +1,10 @@
 <template>
 <div>
   <header>
-    <i class="icon fas fa-house-user fa-2x"></i>
-    <p class="brand">Northern Estate Agents</p>
+    <div class="branding">
+      <i class="icon fas fa-house-user fa-2x"></i>
+      <p class="brand">Northern Estate Agents</p>
+    </div>
     <div id="nav">
     <ul>
       <li><router-link to="/">Home</router-link></li>
@@ -31,32 +33,28 @@ export default {
     display: flex;
     margin: 0 auto;
     place-items: center;
-    justify-content: center;
+    justify-content: space-between;
     color: #333 ;
     padding: 2rem;
   }
 
-  .brand {
+  .branding {
     display: flex;
-    position: absolute;
-    left: 60px;
-    justify-content: flex-start;
+  }
+
+  .brand {
     font-weight: 600;
     font-size: 1.4rem;
   }
 
   .icon{
     display: flex;
-    position: absolute;
-    left: 1.2rem;
-    padding-right: 5px;
+    padding-right: 8px;
     color: #2c3e50;
   }
 
 #nav {
   display: flex;
-  position: absolute;
-  right: 0;
 }
 
 #nav a {
@@ -70,7 +68,6 @@ export default {
 
 ul {
   display: flex;
-  float:right;
 }
 
 li {
