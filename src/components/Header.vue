@@ -3,7 +3,7 @@
   <header>
     <div class="branding">
       <i class="icon fas fa-house-user fa-2x"></i>
-      <p class="brand">Northern Estate Agents</p>
+      <p class="brand">Demo Estate Agents</p>
     </div>
     <div id="nav">
     <ul>
